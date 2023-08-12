@@ -1,0 +1,5400 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//PT-BR">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<script>
+function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
+
+
+function formatCurrency(num) { num = num.toString().replace(/\$|\,/g, ''); if (isNaN(num)) num = "0"; cents = Math.floor((num * 100 + 0.5) % 100); num = Math.floor((num * 100 + 0.5) / 100).toString(); if (cents < 10) cents = "0" + cents; for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3)); return ("" + num + "." + cents); } 
+
+function calcular()
+ { var n1 = parseInt(document.getElementById('n1').value, 10); 
+ var n2 = parseInt(document.getElementById('n2').value, 10); document.getElementById('resultado').innerHTML = n1 * n2; }
+ 
+</script>  
+ <script>
+function funcao1()
+{
+alert("bilhete gerador com sucesso, faca o pix para validar seu jogo antes da Extracao, informe ao cambista. O NAO PAGAMENTO 10 minutos antes da extracao resulta em cancelamento automatico,boa sorte!");
+}
+</script>
+</head>
+<body>
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+<body style="background-color:gold ">
+<a href="rifagrupo.html">IIr</a>
+
+ <h3>MULTIJOGO RIFA de CENTENA<h3>
+ 
+ <input cracked type="hidden"name="RIFA" value="CENTENA">
+ <table border="5"style="background-color:lime">
+   
+      <tr>   
+      
+     <td> <input id="1premio"required type="radio"name="premio"value="1 premio">
+<label for="1premio">1 premio</label>
+
+<td><input id="1 E 1/5 premio" type="radio"name="premio"value=" 1 E 1/5 premio">
+<label for="1 E 1/5 premio">1 E 1/5 premio</label>
+
+<td><input id="1/5 premio" type="radio"name="premio"value="1/5 premio">
+
+<label for="1/5 premio">1/5 premio</label>
+
+</table><br>
+
+
+01<input type="tel" size="1" name="centena1" value=""maxlength="3"placeholder="CENTENA"> 
+02<input  type="tel" size="1" name="centena2"value=""maxlength="3" placeholder="CENTENA">
+ <label class="btn btn-default"> 
+03<input  type="tel" size="1" name="centena3" value="" maxlength="3"placeholder="CENTENA">
+04<input  type="tel" size="1" name="centena4"value="" maxlength="3"placeholder="CENTENA"><br>
+05<input type="tel" size="1" name="centena5"value=""maxlength="3"placeholder="CENTENA"> 
+06<input type="tel" size="1" name="centena6"value=""maxlength="3"placeholder="CENTENA"> 
+07<input  type="tel" size="1" name="centena7"value=""maxlength="3"placeholder="CENTENA">  
+08<input type="tel" size="1" name="centena8"value=""maxlength="3"placeholder="CENTENA"><br>
+
+09<input  type="tel" size="1" name="centena9"value=""maxlength="3"placeholder="CENTENA">  
+10<input type="tel" size="1" name="centena10"value=""maxlength="3"placeholder="CENTENA">  
+ <h3>HORARIO<h3>
+
+ <table border="5"style="background-color:pink">	
+
+ <tr>
+<td><input type="radio" name="EXTRACAO" value="10:00 Horas">10:00<td><label class="btn btn-default">
+<td><input type="radio" name="EXTRACAO" value="12:00 Horas">12:00<td><label class="btn btn-default">
+<td><input type="radio" name="EXTRACAO"value="15:00 Horas">15:00<td><label class="btn btn-default">
+<td><input type="radio" name="EXTRACAO" value="19:00 Horas">19:00<td><label class="btn btn-default">
+<td><input type="radio" name="EXTRACAO"value="21:00 Horas">21:00<td><label class="btn btn-default">
+</table>
+
+</select>
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST">  
+ <input type="hidden" name="recipient" value="multijogo1980@gmail.com">  
+ 
+ 
+ <input type="hidden" name="redirect" value="https://link.mercadopago.com.br/multijogo"> 
+ 
+ 
+ <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
+
+
+valor total<br>
+<input maxlength="5"class="form-control input-lg" id="disabledInput" name="total" type="text" placeholder="R$"readonly=" disabled">
+
+
+<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="600">
+<span class="input-group-addon"></span>
+<br>
+<br>
+<input  maxlength="2" type="tel" size="8"name="valor" value="" placeholder="R$"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
+ <label class="btn btn-default"> 
+
+
+<input type="text" size="18" name="NOME"required placeholder="Nome"><br>
+   <div class="6u 12u$(xsmall)">  
+ 
+
+ <input type="submit" name="" value="ENVIAR A PULE" select="button alt" onclick="funcao1()" value="Exibir Alert" >
+  <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt">
+</table>
+
+   <table groove="1">
+        <tr> 
+        <td><a href="rifagrupo.html">RIFA de GRUPO</a><br>
+<td>
+<a href="rifa.html">RIFA de DEZENA</a><br>
+<td>
+<a href="index.html">START do GAME</a><br>
+
+
+</table>
+<br><br>
+
+
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENAS=001"   value="">001</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-002" id="option2" value="">002</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-003" id="option3" value="">003</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-004" value="">004</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-005" id="option2" value="">005</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-006" value="">006</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-007" id="option2" value=""> 007</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 008"   value="">008</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-009" id="option2" value="">009</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-010" id="option3" value="">010</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-011" value="">011</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-012" id="option2" value="">012</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-013" value="0">013</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-014" id="option2" value="">014</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-015"   value="">015</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-016" id="option2" value="">016</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-017" id="option3" value="">017</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-018" value="">018</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-019" id="option2" value="">019</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-020" value="">020</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-021" id="option2" value="">021</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-022"   value="">022</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="rifa 023" name="RIFA-CENTENA-02" id="option2" value="">023</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-024" id="option3" value="">024</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-025" value="">025</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-026" id="option2" value="">026</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-027" value="">027</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-028" id="option2" value="">028</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-029"   value="">029</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-030" id="option2" value="">030</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-031" id="option3" value="">031</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-032" value="">032</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-033" id="option2" value="">033</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-034" value="">034</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-035" id="option2" value=""> 035</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-036"   value="">036</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-037" id="option2" value="">037</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-38" id="option3" value="">038</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-39" value="">039</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-40" id="option2" value="">040</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-41" value="">041</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-042" id="option2" value=""> 042</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-43"   value="">043</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-044" id="option2" value="">044</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-045" id="option3" value="">045</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-46" value="">046</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-47" id="option2" value="">047</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-048" value="">048</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-049" id="option2" value="">049</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+
+<input type="checkbox" name="rifa-050"   value="">050</label>
+ <label class="btn btn-default"> 
+ <td>
+ <input type="checkbox" name="rifa-51"   value="">051</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-52" id="option2" value="">052</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-053" id="option3" value="">053</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-054" value="">054</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-055" id="option2" value="">055</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-056" value="">056</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-057" id="option2" value="">057</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-058"   value="">058</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-059" id="option2" value="">059</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-060" id="option3" value="">060</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-061" value="">061</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-062" id="option2" value="">062</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-063" value="">063</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-064" id="option2" value="">064</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 065"   value="">065</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-066" id="option2" value="">066</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-067" id="option3" value="">067</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-068" value="">068</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-069" id="option2" value="">069</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-070" value="">070</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-071" id="option2" value="">071</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-072"   value="">072</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-073" id="option2" value="">073</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-074" id="option3" value="">074</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-075" value="">075</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-076" id="option2" value="">076</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-077" value="">077</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-078" id="option2" value="">078</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-079"   value="">079</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-080" id="option2" value="">080</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-081" id="option3" value="">081</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-082" value="">082</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-083" id="option2" value="">083</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-084" value="">084</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-085" id="option2" value="">085</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-086"   value="">086</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-087" id="option2" value="">087</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-088" id="option3" value="">088</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-089" value="">089</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-090" id="option2" value="">090</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-091" value="">091</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-092" id="option2" value=""> 092</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-093"   value="">093</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-094" id="option2" value="">094</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-095" id="option3" value="">095</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-096" value="">096</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-097" id="option2" value="">097</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[098]" value="">098</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-[099]" id="option2" value="">099</label> <label class="btn btn-default"> 
+
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>200" value="">200</label>
+ <label class="btn btn-default"> 
+ 
+
+ </table>
+
+
+
+.
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+   
+
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENAS=> 201"   value="">201</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-202" id="option2" value="">202</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-203" id="option3" value="">203</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-204" value="">204</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-205" id="option2" value="">205</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-206" value="">206</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-207" id="option2" value="">207</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 208"   value="">628</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-209" id="option2" value="">209</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-210" id="option3" value="">210</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-211" value="">211</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-212" id="option2" value="">212</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-213" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">213</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-214" id="option2" value="">214</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-215"   value="">215</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-216" id="option2" value="">216</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-217" id="option3" value="">217</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-218" value="">218</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-219" id="option2" value="">219</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-220" value="">220</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-221" id="option2" value="">221</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-222"   value="">222</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-223" id="option2" value="">223</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-224" id="option3" value="">224</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="te center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-225" value="">225</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-226" id="option2" value="">226</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-227" value="">227</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-228" id="option2" value="">228</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-229"   value="">229</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-230" id="option2" value="">230</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-231" id="option3" value="">231</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-232" value="">232</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-233" id="option2" value="">233</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-234" value="">234</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-235" id="option2" value="">235</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-236"   value="">236</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-237" id="option2" value="">237</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-238" id="option3" value="">238</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-239" value="">239</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-240" id="option2" value="">240</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-241" value="">241</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-242" id="option2" value="">242</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-243"   value="">243</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-244" id="option2" value="">244</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-245" id="option3" value="">245</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-246" value="">246</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-247" id="option2" value="">247</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-248" value="">248</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-249" id="option2" value="">249</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+<input type="checkbox" name="rifa-250"   value="">250</label>
+ <label class="btn btn-default"> 
+ <td>
+ <input type="checkbox" name="rifa-251"   value="">251</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-252" id="option2" value="">252</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-253" id="option3" value="">253</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-254" value="">254</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-255" id="option2" value="">255</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-256" value="">256</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-257" id="option2" value="">257</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-258"   value="">258</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-259" id="option2" value="">259</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-260" id="option3" value="">260</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-261" value="">261</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-262" id="option2" value="">262</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-263" value="">263</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-264" id="option2" value="">264</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 265"   value="">265</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-266" id="option2" value="">266</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-267" id="option3" value="">267</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-668" value="">268</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-669" id="option2" value="">269</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-270" value="">270</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-661" id="option2" value="">271</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-672"   value="">272</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-273" id="option2" value="">273</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-274" id="option3" value="">274</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-275" value="">275</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-276" id="option2" value="">276</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-277" value="">277</label>
+ <label class="btn btn-default"> 
+    </table>
+    
+    
+    
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-278" id="option2" value="">278</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-279"   value="">279</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-280" id="option2" value="">280</label> 
+ <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-281" id="option3" value="">281</label>
+<label class="btn btn-default"> 
+
+
+<td><input type="checkbox" name="RIFA-CENTENA-282" value="">282</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-283" id="option2" value="">283</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-284" value="">284</label>
+ <label class="btn btn-default"> 
+    </table>
+    
+    
+    
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-285" id="option2" value="">285</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-286"   value="">286</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-287" id="option2" value="">687</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-288" id="option3" value="">288</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-289" value="">289</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-290" id="option2" value="">290</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-291" value="">291</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-292" id="option2" value="">292</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-293"   value="">293</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-294" id="option2" value="">294</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-295" id="option3" value="">295</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-296" value="">296</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-297" id="option2" value="">297</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[298]" value=""2698</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-299" id="option2" value=""> 299</label> <label class="btn btn-default"> 
+
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>300" value="">300</label>
+ <label class="btn btn-default"> 
+ </table>
+ 
+ 
+ 
+ 
+ <!---901 ate 999-->
+ 
+     <table border="1">
+<tr>
+<td>
+<input type="checkbox" name="RIFA-CENTENAS=301"   value="">301</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-302" id="option2" value="">302</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-303" id="option3" value="">303</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-304" value="">304</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-305" id="option2" value="">305</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-306" value="">306</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-307" id="option2" value="">307</label> <label class="btn btn-default"> 
+ 
+ </table>
+ 
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 308"   value="">308</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-309" id="option2" value="">309</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-310" id="option3" value="">310</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-311" value="">311</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-312" id="option2" value="">312</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-313" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">313</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-314" id="option2" value=""> 314</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-315"   value="">315</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-316" id="option2" value="">316</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-317" id="option3" value="">317</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-718" value="">318</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-339" id="option2" value="">319</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-320" value="">320</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-321" id="option2" value="">321</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-322"   value="">322</label>
+ <label class="btn btn-default"> 
+ 
+         
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-323" id="option2" value="">323</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-324" id="option3" value="">324</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-325" value="">325</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-326" id="option2" value="">326</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-327" value="">327</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-328" id="option2" value="">328</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-329"   value="">329</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-330" id="option2" value="">330</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-331" id="option3" value="">331</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-332" value="">332</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-333" id="option2" value="">333</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-334" value="">334</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-335" id="option2" value="">335</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-336"   value="">336</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-337" id="option2" value="">337</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-338" id="option3" value="">338</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-339" value="">339</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-340" id="option2" value="">340</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-341" value="">341</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-342" id="option2" value="">342</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+  <tr>
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+   <td>
+<div type="checkbox"  value="1" >
+<input type="checkbox" name="rifa-343"   value="">343</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-344" id="option2" value="">344</label> <label class="btn btn-default">
+ 
+ 
+<td><input type="checkbox" name="RIFA-CENTENA-345" id="option3" value="">345</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-346" value="">346</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-347" id="option2" value="">347</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-348" value="">348</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-349" id="option2" value="">349</label> <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+  <td>
+<div type="checkbox"  value="1" />
+<input type="checkbox" name="rifa-350"   value="">350</label>
+ <label class="btn btn-default"> 
+
+ <td> <input type="checkbox" name="rifa-351"   value="">351</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-452" id="option2" value="">352</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-353" id="option3" value="">353</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-354" value="">54</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-355" id="option2" value="">355</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-356" value="">356</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-357" id="option2" value="">357</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-358"   value="">358</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-359" id="option2" value="">359</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-360" id="option3" value="">360</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-361" value="">361</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-362" id="option2" value="">362</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-363" value="">463</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-364" id="option2" value="">364</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 365"   value="">365</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-366" id="option2" value="">366</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-367" id="option3" value="">367</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-368" value="">368</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-369" id="option2" value="">369</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-370" value="">370</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-371" id="option2" value="">371</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-372"   value="">372</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-373" id="option2" value="">373</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-374" id="option3" value="">374</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-375" value="">375</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-376" id="option2" value="">376</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-377" value="">377</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-378" id="option2" value="">378</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-379"   value="">379</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-380" id="option2" value="">380</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-81" id="option3" value="">381</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-382" value="">382</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-383" id="option2" value="">383</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-384" value="">384</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-385" id="option2" value="">385</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-386"   value="">386</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-387" id="option2" value="">387</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-388" id="option3" value="">388</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-389" value="">389</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-390" id="option2" value="">390</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-391" value="">391</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-392" id="option2" value=""> 392</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-393"   value="">393</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-394" id="option2" value="">394</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-395" id="option3" value="">395</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-396" value="">396</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-397" id="option2" value="">397</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-398" value="">398</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-399" id="option2" value=""> 399</label> <label class="btn btn-default"> 
+
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>400" value="">400</label>
+ <label class="btn btn-default"> 
+ 
+
+ </table>
+
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+   
+
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENAS=> 401"   value="">401</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-402" id="option2" value="">402</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-403" id="option3" value="">403</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-404" value="">404</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-405" id="option2" value="">405</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-406" value="">406</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-407" id="option2" value="">407</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 408"   value="">408</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-409" id="option2" value="">409</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-410" id="option3" value="">410</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-411" value="">411</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-412" id="option2" value="">412</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-413" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">413</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-414" id="option2" value="">414</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-415"   value="">415</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-416" id="option2" value="">416</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-417" id="option3" value="">417</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-418" value="">418</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-419" id="option2" value="">419</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-420" value="">420</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-421" id="option2" value="">421</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-422"   value="">422</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-423" id="option2" value="">423</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-424" id="option3" value="">424</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-425" value="">425</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-426" id="option2" value="">426</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-427" value="">427</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-428" id="option2" value="">428</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-429"   value="">429</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-430" id="option2" value="">430</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-431" id="option3" value="">431</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-432" value="">432</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-433" id="option2" value="">433</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-434" value="">434</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-435" id="option2" value="">435</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-436"   value="">436</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-437" id="option2" value="">437</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-438" id="option3" value="">438</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-439" value=""439</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-440" id="option2" value="">440</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-41" value="">441</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-442" id="option2" value="">442</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-443"   value="">443</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-444" id="option2" value="">444</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-445" id="option3" value="">445</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-446" value="">446</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-447" id="option2" value="">447</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-448" value="">448</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-449" id="option2" value="">449</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+
+<input type="checkbox" name="rifa-450"   value="">450</label>
+ <label class="btn btn-default"> 
+ 
+ <input type="checkbox" name="rifa-451"   value="">451</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-452" id="option2" value="">452</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-453" id="option3" value="">453</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-454" value="">454</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-455" id="option2" value="">455</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-456" value="">456</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-457" id="option2" value="">457</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-458"   value="">458</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-459" id="option2" value="">459</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-460" id="option3" value="">460</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-461" value="">461</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-462" id="option2" value="">462</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-463" value="">463</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-464" id="option2" value="">464</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 465"   value="">465</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-466" id="option2" value="">466</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-467" id="option3" value="">467</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-468" value="">468</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-469" id="option2" value="">469</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-470" value="">470</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-471" id="option2" value="">471</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-472"   value="">472</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-473" id="option2" value="">473</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-474" id="option3" value="">474</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-475" value="">475</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-476" id="option2" value="">476</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-477" value="">477</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-478" id="option2" value="">478</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-479"   value="">479</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-480" id="option2" value="">480</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-481" id="option3" value="">481</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-482" value="">482</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-483" id="option2" value="">483</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-484" value="">484</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-485" id="option2" value="">485</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-486"   value="">486</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-487" id="option2" value="">487</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-488" id="option3" value="">488</label>
+<label class="btn btn-default"> 
+ feito ate aqui
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-489" value="">489</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-490" id="option2" value="">490</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-491" value="">491</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-492" id="option2" value="">492</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-493"   value="">493</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-494" id="option2" value="">494</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-495" id="option3" value="">495</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-496" value="">496</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-497" id="option2" value="">497</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[498]" value="">498</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-[499]" id="option2" value=""> 499</label> <label class="btn btn-default"> 
+
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>500" value="">500</label>
+ <label class="btn btn-default"> 
+ </table>
+ 
+ 
+ 
+ 
+ <!---901 ate 999-->
+ 
+     <table border="1">
+<tr>
+<td>
+<input type="checkbox" name="RIFA-CENTENAS=501"   value="">501</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-502" id="option2" value="">502</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-503" id="option3" value="">503</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-504" value="">504</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-505" id="option2" value="">505</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-506" value="">506</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-507" id="option2" value="">507</label> <label class="btn btn-default"> 
+ 
+ </table>
+ 
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 508"   value="">508</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-509" id="option2" value="">509</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-510" id="option3" value="">510</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-511" value="">511</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-512" id="option2" value="">512</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-513" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">513</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-514" id="option2" value=""> 514</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-515"   value="">515</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-516" id="option2" value="">516</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-517" id="option3" value="">517</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-518" value="">518</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-519" id="option2" value="">519</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-520" value="">520</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-521" id="option2" value="">521</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-522"   value="">522</label>
+ <label class="btn btn-default"> 
+ 
+         
+ 
+ <td><input type="checkbox" name="rifa 523" name="RIFA-CENTENA-02" id="option2" value="">523</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-524" id="option3" value="">524</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-525" value="">525</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-526" id="option2" value="">526</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-527" value="">527</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-58" id="option2" value="">528</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-529"   value="">529</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-530" id="option2" value="">530</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-531" id="option3" value="">531</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-532" value="">532</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-533" id="option2" value="">533</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-534" value="">534</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-535" id="option2" value="">535</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-536"   value="">536</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-537" id="option2" value="">537</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-538" id="option3" value="">538</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-539" value="">539</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-540" id="option2" value="">540</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-41" value="">541</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-42" id="option2" value="">542</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-543"   value="">543</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-544" id="option2" value="">544</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-545" id="option3" value="">545</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-46" value="">546</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-547" id="option2" value="">547</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-548" value="">548</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-549" id="option2" value="">549</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+  <tr>
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+
+<input type="checkbox" name="rifa-550"   value="">550</label>
+ <label class="btn btn-default"> 
+ <td>
+ <input type="checkbox" name="rifa-551"   value="">551</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-552" id="option2" value="">552</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-553" id="option3" value="">553</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-554" value="">554</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-555" id="option2" value="">555</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-556" value="">556</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-557" id="option2" value="">557</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-558"   value="">558</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-559" id="option2" value="">559</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-560" id="option3" value="">560</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-561" value="">561</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-562" id="option2" value="">562</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-563" value="">563</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-564" id="option2" value="">564</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 565"   value="">565</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-566" id="option2" value="">566</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-567" id="option3" value="">567</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-568" value="">568</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-569" id="option2" value="">569</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-570" value="">570</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-571" id="option2" value="">571</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-572"   value="">572</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-573" id="option2" value=""573</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-574" id="option3" value="">574</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-575" value="">575</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-576" id="option2" value="">576</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-577" value="">577</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-578" id="option2" value="">578</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-579"   value="">579</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-580" id="option2" value="">580</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-581" id="option3" value="">581</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-582" value="">582</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-583" id="option2" value="">583</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-584" value="">584</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-585" id="option2" value=""685</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-586"   value="">586</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-587" id="option2" value="">587</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-588" id="option3" value="">588</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-589" value=""5989</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-590" id="option2" value="">590</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-591" value="">591</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-592" id="option2" value=""> 592</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-593"   value="">593</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-594" id="option2" value="">594</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-595" id="option3" value="">595</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-596" value="">596</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-597" id="option2" value="">597</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[598]" value="">598</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-[599]" id="option2" value=""> 599</label> <label class="btn btn-default"> 
+
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>00" value="">600</label>
+ <label class="btn btn-default"> 
+ 
+
+ </table>
+<br><br>
+</table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+   
+
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENAS=> 601"   value="">601</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-602" id="option2" value="">602</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-603" id="option3" value="">603</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-604" value="">604</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-605" id="option2" value="">605</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-806" value="">606</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-607" id="option2" value="">607</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 608"   value="">608</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-609" id="option2" value="">609</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-610" id="option3" value="">610</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-611" value="">611</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-612" id="option2" value="">612</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-613" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">613</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-614" id="option2" value="">614</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-615"   value="">615</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-816" id="option2" value="">616</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-617" id="option3" value="">617</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-618" value="">618</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-619" id="option2" value="">619</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-620" value="">620</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-621" id="option2" value="">621</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-622"   value="">622</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-602" id="option2" value="">623</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-624" id="option3" value="">624</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="te center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-625" value="">625</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-626" id="option2" value="">626</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-627" value="">627</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-628" id="option2" value="">628</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-629"   value="">629</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-630" id="option2" value="">630</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-631" id="option3" value="">631</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-632" value="">632</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-633" id="option2" value="">633</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-634" value="">634</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-635" id="option2" value="">635</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-636"   value="">636</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-637" id="option2" value="">637</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-638" id="option3" value="">638</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-639" value="">639</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-640" id="option2" value="">640</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-641" value="">641</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-642" id="option2" value="">642</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-643"   value="">643</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-644" id="option2" value="">644</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-645" id="option3" value="">645</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-646" value="">646</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-647" id="option2" value="">647</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-648" value="">648</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-649" id="option2" value="">649</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+
+<input type="checkbox" name="rifa-650"   value="">650</label>
+ <label class="btn btn-default"> 
+ 
+ <input type="checkbox" name="rifa-651"   value="">651</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-652" id="option2" value="">652</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-653" id="option3" value="">653</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-654" value="">654</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-655" id="option2" value="">655</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-656" value="">656</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-57" id="option2" value="">657</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-58"   value="">658</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-59" id="option2" value="">659</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-60" id="option3" value="">660</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-661" value="">661</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-662" id="option2" value="">662</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-663" value="">663</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-664" id="option2" value="">664</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 665"   value="">665</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-666" id="option2" value="">666</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-667" id="option3" value="">667</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-668" value="">668</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-669" id="option2" value="">669</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-670" value="">670</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-661" id="option2" value="">671</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-672"   value="">672</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-673" id="option2" value="">673</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-674" id="option3" value="">674</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-75" value="">675</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-76" id="option2" value="">676</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-77" value="">677</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-78" id="option2" value="">678</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-79"   value="">679</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-80" id="option2" value="">680</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-81" id="option3" value="">681</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-82" value="">682</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-683" id="option2" value="">683</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-684" value="">684</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-685" id="option2" value="">685</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-686"   value="">686</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-687" id="option2" value="">687</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-688" id="option3" value="">688</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-689" value="">689</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-690" id="option2" value="">690</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-691" value="">691</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-692" id="option2" value="">692</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-693"   value="">693</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-694" id="option2" value="">694</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-695" id="option3" value="">695</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-696" value="">696</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-697" id="option2" value="">697</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[698]" value="">698</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-699" id="option2" value=""> 699</label> <label class="btn btn-default"> 
+
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>700" value="">700</label>
+ <label class="btn btn-default"> 
+ </table>
+ 
+ 
+ 
+ 
+ <!---901 ate 999-->
+ 
+     <table border="1">
+<tr>
+<td>
+<input type="checkbox" name="RIFA-CENTENAS=701"   value="">701</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-702" id="option2" value="">702</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-703" id="option3" value="">703</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-704" value="">704</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-705" id="option2" value="">705</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-06" value="">706</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-707" id="option2" value="">707</label> <label class="btn btn-default"> 
+ 
+ </table>
+ 
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 08"   value="">708</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-709" id="option2" value="">709</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-710" id="option3" value="">710</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-711" value="">711</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-712" id="option2" value="">712</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-713" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">713</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA714" id="option2" value=""> 714</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-715"   value="">715</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-716" id="option2" value="">716</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-717" id="option3" value="">717</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-718" value="">718</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-719" id="option2" value="">7919</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-720" value="">720</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-721" id="option2" value="">721</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-722"   value="">722</label>
+ <label class="btn btn-default"> 
+ 
+         
+ 
+ <td><input type="checkbox" name="rifa 723" name="RIFA-CENTENA-02" id="option2" value="">723</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-724" id="option3" value="">724</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-725" value="">725</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-726" id="option2" value="">726</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-27" value="">727</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-728" id="option2" value="">728</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-729"   value="">729</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-730" id="option2" value="">730</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-731" id="option3" value="">731</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-732" value="">732</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-733" id="option2" value="">733</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-734" value="">734</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-735" id="option2" value="">735</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-736"   value="">736</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-737" id="option2" value="">737</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-738" id="option3" value="">738</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-739" value="">739</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-740" id="option2" value="">740</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-741" value="">741</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-742" id="option2" value="">742</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-743"   value="">743</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-744" id="option2" value="">744</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-745" id="option3" value="">745</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-46" value="">746</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-47" id="option2" value="">747</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-48" value="">748</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-749" id="option2" value="">749</label> <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+
+<input type="checkbox" name="rifa-750"   value=""750</label>
+ <label class="btn btn-default"> 
+ <td>
+ <input type="checkbox" name="rifa-751"   value="">751</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-752" id="option2" value="">752</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-753" id="option3" value="">753</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-754" value="">754</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-55" id="option2" value="">755</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-756" value="">756</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-757" id="option2" value="">757</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-758"   value="">758</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-759" id="option2" value="">759</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-760" id="option3" value="">760</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-761" value="">761</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-762" id="option2" value="">762</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-763" value="">763</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-764" id="option2" value="">764</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 765"   value="">765</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-766" id="option2" value="">766</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-767" id="option3" value="">767</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-768" value="">768</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-769" id="option2" value="">769</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-70" value="">770</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-771" id="option2" value="">771</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-772"   value="">772</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-773" id="option2" value="">773</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-774" id="option3" value="">774</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-775" value="">775</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-776" id="option2" value="">776</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-777" value="">777</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-778" id="option2" value="">778</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-779"   value="">779</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-780" id="option2" value="">780</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-781" id="option3" value="">781</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-782" value="">782</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-783" id="option2" value="">783</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-784" value="">784</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-785" id="option2" value="">785</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-786"   value="">786</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-787" id="option2" value="">787</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-788" id="option3" value="">788</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-789" value="">789</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-790" id="option2" value="">790</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-791" value="">791</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-792" id="option2" value=""> 792</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-793"   value="">793</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-794" id="option2" value="">794</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-795" id="option3" value="">795</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-796" value="">796</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-797" id="option2" value="">797</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-798" value="">798</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-799" id="option2" value=""> 799</label> <label class="btn btn-default"> 
+
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>800" value="">800</label>
+ <label class="btn btn-default"> 
+ 
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+   
+
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENAS=> 801"   value="">801</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-802" id="option2" value="">802</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-803" id="option3" value="">803</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-804" value="">804</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-805" id="option2" value="">805</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-806" value="">806</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-807" id="option2" value="">807</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 808"   value="">808</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-809" id="option2" value="">809</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-810" id="option3" value="">810</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-811" value="">811</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-812" id="option2" value="">812</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-813" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">813</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-814" id="option2" value="">814</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-815"   value="">815</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-816" id="option2" value="">816</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-817" id="option3" value="">817</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-818" value="">818</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-819" id="option2" value="">819</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-820" value="">820</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-821" id="option2" value="">821</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-822"   value="">822</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-02" id="option2" value="">823</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-824" id="option3" value="">824</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-25" value="">825</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-26" id="option2" value="">826</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-27" value="">827</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-28" id="option2" value="">828</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-29"   value="">829</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-30" id="option2" value="">830</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-31" id="option3" value="">831</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-32" value="">832</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-33" id="option2" value="">833</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-34" value="">834</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-35" id="option2" value="">835</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-36"   value="">836</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-37" id="option2" value="">837</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-38" id="option3" value="">838</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-39" value="">839</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-40" id="option2" value="">840</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-41" value="">841</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-42" id="option2" value="">842</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-43"   value="">843</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-44" id="option2" value="">844</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-45" id="option3" value="">845</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-46" value="">846</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-47" id="option2" value="">847</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-48" value="">848</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-49" id="option2" value="">849</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+
+<input type="checkbox" name="rifa-50"   value="">850</label>
+ <label class="btn btn-default"> 
+ 
+ <input type="checkbox" name="rifa-51"   value="">851</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-52" id="option2" value="">852</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-53" id="option3" value="">853</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-54" value="">854</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-55" id="option2" value="">855</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-56" value="">856</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-57" id="option2" value="">857</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-58"   value="">858</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-59" id="option2" value="">859</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-60" id="option3" value="">860</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-61" value="">861</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-62" id="option2" value="">862</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-63" value="">863</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-64" id="option2" value="">864</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 65"   value="">865</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-66" id="option2" value="">866</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-67" id="option3" value="">867</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-68" value="">868</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-69" id="option2" value="">869</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-70" value="">870</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-71" id="option2" value="">871</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-72"   value="">872</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-73" id="option2" value="">873</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-74" id="option3" value="">874</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-75" value="">875</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-76" id="option2" value="">876</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-77" value="">877</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-78" id="option2" value="">878</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-79"   value="">879</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-80" id="option2" value="">880</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-81" id="option3" value="">881</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-82" value="">882</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-83" id="option2" value="">883</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-84" value="">884</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-85" id="option2" value="">885</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-86"   value="">886</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-87" id="option2" value="">887</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-88" id="option3" value="">888</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-89" value="">889</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-90" id="option2" value="">890</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-91" value="">891</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-92" id="option2" value="">892</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-93"   value="">893</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-94" id="option2" value="">894</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-95" id="option3" value="">895</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-96" value="">896</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-97" id="option2" value="">897</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[98]" value="">898</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-[99]" id="option2" value=""> 899</label> <label class="btn btn-default"> 
+
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>00" value="">900</label>
+ <label class="btn btn-default"> 
+ </table>
+ 
+ 
+ 
+ 
+ <!---901 ate 999-->
+ 
+     <table border="1">
+<tr>
+<td>
+<input type="checkbox" name="RIFA-CENTENAS=01"   value="">901</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-02" id="option2" value="">902</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-03" id="option3" value="">903</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-04" value="">904</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-05" id="option2" value="">905</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-06" value="">906</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-07" id="option2" value="">907</label> <label class="btn btn-default"> 
+ 
+ </table>
+ 
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 08"   value="">908</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-09" id="option2" value="">909</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-10" id="option3" value="">910</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-11" value="">911</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-12" id="option2" value="">912</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-13" value="1" autocomplete="off" onchange="this.form.total.value=checkChoice(this);">913</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-14" id="option2" value=""> 914</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-15"   value="">915</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-16" id="option2" value="">916</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-17" id="option3" value="">917</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-18" value="">918</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-19" id="option2" value="">919</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-20" value="">920</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-21" id="option2" value="">921</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-22"   value="">922</label>
+ <label class="btn btn-default"> 
+ 
+         
+ 
+ <td><input type="checkbox" name="rifa 23" name="RIFA-CENTENA-02" id="option2" value="">923</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-24" id="option3" value="">924</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-25" value="">925</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-26" id="option2" value="">926</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-27" value="">927</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-28" id="option2" value="">928</label> <label class="btn btn-default"> 
+  
+
+ </table>
+   <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-29"   value="">929</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-30" id="option2" value="">930</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-31" id="option3" value="">931</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-32" value="">932</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-33" id="option2" value="">933</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-34" value="">934</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-35" id="option2" value="">935</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="0000000" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-36"   value="">936</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-37" id="option2" value="">937</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-38" id="option3" value="">938</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-39" value="">939</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-40" id="option2" value="">940</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-41" value="">941</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-42" id="option2" value="">942</label> <label class="btn btn-default"> 
+  
+
+ </table>
+
+
+  <table border="1">  
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+<tr>
+<td>
+
+
+<input type="checkbox" name="rifa-43"   value="">943</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-44" id="option2" value="">944</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-45" id="option3" value="">945</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-46" value="">946</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-47" id="option2" value="">947</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-48" value="">948</label>
+ <label class="btn btn-default"> 
+   
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-49" id="option2" value="">949</label> <label class="btn btn-default"> 
+  
+
+ </table>
+  <table border="1">  
+  <tr>
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+
+<input type="checkbox" name="rifa-50"   value="">950</label>
+ <label class="btn btn-default"> 
+ <td>
+ <input type="checkbox" name="rifa-51"   value="">951</label>
+ <label class="btn btn-default"> 
+ 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-52" id="option2" value="">952</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-53" id="option3" value="">953</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-54" value="">954</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-55" id="option2" value="">955</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-56" value="">956</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-57" id="option2" value="">957</label> <label class="btn btn-default"> 
+
+<td>
+
+<input type="checkbox" name="rifa-58"   value="">958</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-59" id="option2" value="">959</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-60" id="option3" value="">960</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-61" value="">961</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-62" id="option2" value="">962</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-63" value="">963</label>
+ <label class="btn btn-default"> 
+  
+ </table>
+  <table border="1">  
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-64" id="option2" value="">964</label> <label class="btn btn-default"> 
+  
+
+
+   <div style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="rifa Dezena 65"   value="">965</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-66" id="option2" value="">966</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-67" id="option3" value="">967</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="0"  value="1"
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-68" value="">968</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-69" id="option2" value="">969</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-70" value="">970</label>
+ <label class="btn btn-default"> 
+    </table>
+
+  <table border="1">
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-71" id="option2" value="">971</label> <label class="btn btn-default"> 
+  
+
+<td>
+
+
+<input type="checkbox" name="rifa-72"   value="">972</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-73" id="option2" value="">973</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-74" id="option3" value="">974</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+<div type="checkbox" name="1"  value="1" />
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-75" value="">975</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-76" id="option2" value="">976</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-77" value="">977</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-78" id="option2" value="">978</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+<input type="checkbox" name="rifa-79"   value="">979</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox"  name="RIFA-CENTENA-80" id="option2" value="">980</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-81" id="option3" value="">981</label>
+<label class="btn btn-default"> 
+ 
+ 
+  
+
+<input type="checkbox" name="RIFA-CENTENA-82" value="">982</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-83" id="option2" value="">983</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-84" value="">984</label>
+ <label class="btn btn-default"> 
+    </table>
+   <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-85" id="option2" value="">985</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-86"   value="">986</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-87" id="option2" value="">987</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-88" id="option3" value="">988</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-89" value="">989</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-90" id="option2" value="">990</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-91" value="">991</label>
+ <label class="btn btn-default"> 
+    </table>
+  <table border="1">  
+ <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-992" id="option2" value=""> 992</label> <label class="btn btn-default"> 
+  
+
+
+<td>
+
+
+<input type="checkbox" name="rifa-993"   value="">993</label>
+ <label class="btn btn-default"> 
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-94" id="option2" value="">994</label> <label class="btn btn-default">
+ 
+ 
+<td> <input type="checkbox" name="RIFA-CENTENA-95" id="option3" value="">995</label>
+<label class="btn btn-default"> 
+ 
+ 
+   <p style="text-align: center;font-size: 20px; color: blue">	 
+
+
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-96" value="">996</label>
+ <label class="btn btn-default"> 
+
+ 
+ <td><input type="checkbox" name="RIFA-CENTENA-97" id="option2" value="">997</label> <label class="btn btn-default"> 
+  
+ 
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA-[98]" value="">998</label>
+ <label class="btn btn-default"> 
+   
+ </table>
+
+  <table border="1">
+  <tr>
+ <td><input type="checkbox" name="RIFA-CENTENA-[99]" id="option2" value=""> 999</label> <label class="btn btn-default"> 
+
+ 
+<td>
+
+
+<input type="checkbox" name="RIFA-CENTENA=>00" value="">000</label>
+ <label class="btn btn-default"> 
+ 
+
+ </table>
+ <p style="text-align: center;font-size: 20px; color: blue">	 
+ R$ 1.00 para 600
+</form>
+</body>
+</html>
