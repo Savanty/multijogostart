@@ -77,33 +77,34 @@ DEZENA 3:<input type="text" + size="1" name="DEZENA"value="" maxlength="2">
  
  
  <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
-  <div class="row uniform">
- <div class="6u 12u$(xsmall)">
- 
-<label> Valor a jogar<label><br>
-<input class="form-control input-lg" id="disabledInput" name="total" type="text" placeholder="1"readonly=" disabled"> 
 
-<input id="n1" type="hidden" name="hiddentotal" value="300">
-<span class="input-group-addon">
-</span>
- <td><br> 
-<div class="input-group"> 
-<span class="input-group-addon">
+
+valor total<br>
+<input maxlength="5"class="form-control input-lg" id="disabledInput" name="total" type="text" placeholder="R$"readonly=" disabled">
+
+
+<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="300">
+<span class="input-group-addon"></span>
 <br>
-  
-    
-   <input type="text" size "" name="NOME"required placeholder="Nome"><br>
+<br>
+<input  maxlength="2" type="tel" size="8"name="valor" value="" placeholder="R$"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
+ <label class="btn btn-default"> 
+
+
+<input type="text" size="18" name="NOME"required placeholder="Nome"><br>
    <div class="6u 12u$(xsmall)">  
  
 
  <input type="submit" name="" value="ENVIAR A PULE" select="button alt" onclick="funcao1()" value="Exibir Alert" >
-  <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt"><br><br>
+  <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt">
   
-<label> R$ 1.00 para R$ 3.000.00<label>
+  <p style="text-align: center;font-size: 20px; color: blue">	
+ 
+R$ 1.00 para R$ 300.00
+
 </form>
 </body>
 </html>
 
-			
 			
 			
