@@ -3,10 +3,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
 </head>
-<body style="background-color:green">
+<body style="background-color:lime">
 
 <script>
-function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) - eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) + eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
+function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
 
 
 function formatCurrency(num) { num = num.toString().replace(/\$|\,/g, ''); if (isNaN(num)) num = "0"; cents = Math.floor((num * 100 + 0.5) % 100); num = Math.floor((num * 100 + 0.5) / 100).toString(); if (cents < 10) cents = "0" + cents; for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3)); return ("" + num + "." + cents); } 
@@ -15,8 +15,6 @@ function calcular()
  { var n1 = parseInt(document.getElementById('n1').value, 10); 
  var n2 = parseInt(document.getElementById('n2').value, 10); document.getElementById('resultado').innerHTML = n1 * n2; }
 
-
-// funcoes somas de checkds function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) - eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) + eval(whichbox.value);{ifeval(hiddentotal.value)} return (formatCurrency(hiddentotal.value)); } }
 </script>  
  <script>
 function funcao1()
