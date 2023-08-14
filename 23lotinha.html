@@ -23,7 +23,7 @@ alert("bilhete sera validado apos o pagamento do pix .FACA 10 MINUTOS ANTES DA E
 </script>
 
 <script>
-function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 22) { error.textContent = "VOCE ATINGIU O 22 DEZENAS"; elem[j].checked = false; return false; }
+function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 23) { error.textContent = "VOCE ATINGIU O 23 DEZENAS"; elem[j].checked = false; return false; }
  }
   }
 </script>
@@ -81,17 +81,17 @@ DEZENAS<br><br>
     <td>    <span>04</span> 
         <input type="checkbox" class="checkbox" name="lotinha-Dz-04" onclick="checkboxControl(3)" id="1" />
  <td>   <span>05</span>
-     <input type="checkbox" class="checkbox" name="lotinha-Dz-05" onclick="checkboxControl(0)" id="1" /> 
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-05" onclick="checkboxControl(4)" id="1" /> 
      <td><span>06</span>
-      <input type="checkbox" class="checkbox" name="lotinha-Dz-06" onclick="checkboxControl(1)" id="1" />
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-06" onclick="checkboxControl(5)" id="1" />
     <td>  <span>07</span>
-       <input type="checkbox" class="checkbox" name="lotinha-Dz-07" onclick="checkboxControl(2)" id="1" />
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-07" onclick="checkboxControl(6)" id="1" />
  
   
 
- </table>
+ 
 
-  <table border="1">   
+  
 <tr>
 <body>
    <form action=""> <span id="error" style="color: red">
@@ -106,16 +106,16 @@ DEZENAS<br><br>
     <td>    <span>11</span> 
         <input type="checkbox" class="checkbox" name="lotinha-Dz-11" onclick="checkboxControl(3)" id="1" />
  <td>   <span>12</span>
-     <input type="checkbox" class="checkbox" name="lotinha-Dz-12" onclick="checkboxControl(0)" id="1" /> 
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-12" onclick="checkboxControl(4)" id="1" /> 
      <td><span>13</span>
-      <input type="checkbox" class="checkbox" name="lotinha-Dz-13" onclick="checkboxControl(1)" id="1" />
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-13" onclick="checkboxControl(5)" id="1" />
     <td>  <span>14</span>
-       <input type="checkbox" class="checkbox" name="lotinha-Dz-14" onclick="checkboxControl(2)" id="1" />
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-14" onclick="checkboxControl(6)" id="1" />
  
   
 
- </table>
-  <table border="1">   
+ 
+  
 <tr>
    <form action=""> <span id="error" style="color: red">
    </span> 
@@ -131,16 +131,15 @@ DEZENAS<br><br>
 
    <form action=""> <span id="error" style="color: red">
    </span> <td><span>19</span>
-     <input type="checkbox" class="checkbox" name="lotinha-Dz-19" onclick="checkboxControl(0)" id="1" /> 
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-19" onclick="checkboxControl(4)" id="1" /> 
      <td><span>20</span>
-      <input type="checkbox" class="checkbox" name="lotinha-Dz-20" onclick="checkboxControl(1)" id="1" />
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-20" onclick="checkboxControl(5)" id="1" />
    
   <td>  <span>21</span>
-       <input type="checkbox" class="checkbox" name="lotinha-Dz-21" onclick="checkboxControl(2)" id="1" />
-       </table>
+   <input type="checkbox" class="checkbox" name="lotinha-Dz-21" onclick="checkboxControl(6)" id="1" />
+       
+   <tr>
    
-   
-   <table border="2">
     <td>    <span>22</span> 
         <input type="checkbox" class="checkbox" name="lotinha-Dz-22" onclick="checkboxControl(3)" id="1" />
  <td>   <span>23</span>
