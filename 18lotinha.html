@@ -1,0 +1,205 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//PT-BR">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+</head>
+<body style="background-color:Violet">
+
+<script>
+function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
+
+
+
+
+function formatCurrency(num) { num = num.toString().replace(/\$|\,/g, ''); if (isNaN(num)) num = "0"; cents = Math.floor((num * 100 + 0.5) % 100); num = Math.floor((num * 100 + 0.5) / 100).toString(); if (cents < 10) cents = "0" + cents; for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3)); return ("" + num + "." + cents); } 
+
+
+</script>  
+ <script>
+function funcao1()
+{
+alert("bilhete sera validado apos o pagamento do pix .FACA 10 MINUTOS ANTES DA EXTRACAO. informe ao cambista envier o comprovante(confime sua pule em enviar assim mesmo)boa sorte!");
+}
+</script>
+
+<script>
+function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 18) { error.textContent = "VOCE ATINGIU O 18 DEZENAS"; elem[j].checked = false; return false; }
+ }
+  }
+</script>
+</head>
+<body>
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+<body style="background-color:gold ">
+
+  <a href="index.html">II</a>
+  
+
+<p style="text-align: center;font-size: 20px; color: red">	
+<a href="18lotinha.html">
+<string style="background: black; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">18</button>    </a> <br><br>
+DEZENAS<br><br>
+
+
+<a href="17lotinha.html">
+<string style="background: black; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">17</button>    </a> 
+
+<a href="19lotinha.html">
+<string style="background: red; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">19</button>    </a> 
+
+
+<a href="20lotinha.html">
+<string style="background: black; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">20</button>    </a> 
+
+<a href="21lotinha.html">
+<string style="background: red; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">21</button>    </a> 
+
+
+<a href="22lotinha.html">
+<string style="background: black; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">22</button>    </a> 
+
+
+<a href="23lotinha.html">
+<string style="background: red; border-radius: 4px; padding: 10px; cursor: pointer; color: #fff; border: none; font-size: 16px;">23</button>    </a> <br><br>
+   <p style="text-align: center;font-size: 20px; color: blue">	
+   
+   <input cracked type="hidden"name="QUANTIDADE"value="18 lotinha">
+
+  
+  <table border="1">   
+<tr>
+<body>
+   <form action=""> <span id="error" style="color: red"><br>
+   </span> 
+  
+ <td>   <span>01</span>
+     <input type="checkbox" class="checkbox" name="lotinha_Dz01" onclick="checkboxControl(0)" id="1" /> 
+     <td><span>02</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-02" onclick="checkboxControl(1)" id="1" />
+    <td>  <span>03</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-03" onclick="checkboxControl(2)" id="1" />
+    <td>    <span>04</span> 
+        <input type="checkbox" class="checkbox" name="lotinha-Dz-04" onclick="checkboxControl(3)" id="1" />
+ <td>   <span>05</span>
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-05" onclick="checkboxControl(4)" id="1" /> 
+     <td><span>06</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-06" onclick="checkboxControl(5)" id="1" />
+    <td>  <span>07</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-07" onclick="checkboxControl(6)" id="1" />
+ 
+  
+
+ </table>
+
+  <table border="1">   
+<tr>
+<body>
+   <form action=""> <span id="error" style="color: red">
+   </span> 
+  
+ <td>   <span>08</span>
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-08" onclick="checkboxControl(7)" id="1" /> 
+     <td><span>09</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-09" onclick="checkboxControl(8)" id="1" />
+    <td>  <span>10</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-10" onclick="checkboxControl(9)" id="1" />
+    <td>    <span>11</span> 
+        <input type="checkbox" class="checkbox" name="lotinha-Dz-11" onclick="checkboxControl(10)" id="1" />
+ <td>   <span>12</span>
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-12" onclick="checkboxControl(11)" id="1" /> 
+     <td><span>13</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-13" onclick="checkboxControl(12)" id="1" />
+    <td>  <span>14</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-14" onclick="checkboxControl(13)" id="1" />
+ 
+  
+
+ </table>
+  <table border="1">   
+<tr>
+   <form action=""> <span id="error" style="color: red">
+   </span> 
+  
+ <td>   <span>15</span>
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-15" onclick="checkboxControl(14)" id="1" /> 
+     <td><span>16</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-16" onclick="checkboxControl(15)" id="1" />
+    <td>  <span>17</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-17" onclick="checkboxControl(16)" id="1" />
+    <td>    <span>18</span> 
+        <input type="checkbox" class="checkbox" name="lotinha-Dz-18" onclick="checkboxControl(17)" id="1" />
+
+   <form action=""> <span id="error" style="color: red">
+   </span> <td><span>19</span>
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-19" onclick="checkboxControl(18)" id="1" /> 
+     <td><span>20</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-20" onclick="checkboxControl(19)" id="1" />
+   
+  <td>  <span>21</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-21" onclick="checkboxControl(20)" id="1" />
+       
+       </table>
+   
+   
+   <table border="1">
+    <td>    <span>22</span> 
+        <input type="checkbox" class="checkbox" name="lotinha-Dz-22" onclick="checkboxControl(21)" id="1" />
+ <td>   <span>23</span>
+     <input type="checkbox" class="checkbox" name="lotinha-Dz-23" onclick="checkboxControl(22)" id="1" /> 
+     <td><span>24</span>
+      <input type="checkbox" class="checkbox" name="lotinha-Dz-24" onclick="checkboxControl(23)" id="1" />
+    <td>  <span>25</span>
+       <input type="checkbox" class="checkbox" name="lotinha-Dz-25" onclick="checkboxControl(24)" id="1" />
+
+ </table>
+ 
+  <p style="text-align: center;font-size: 20px; color: red">	
+
+<p>HORARIO<p>
+
+ <table border="5"style="background-color:pink">	
+
+ <tr>
+
+<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">20:00<td><label class="btn btn-default">
+</table><br>
+
+
+</select>
+<form action="http://formmail.kinghost.net/formmail.cgi" method="POST">  
+ <input type="hidden" name="recipient" value="multijogo1980@gmail.com">  
+ 
+ 
+ <input type="hidden" name="redirect" value="https://link.mercadopago.com.br/multijogo"> 
+ 
+ 
+ <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
+
+
+valor total<br>
+<input maxlength="5"class="form-control input-lg" id="disabledInput" name="total" type="text" placeholder="R$"readonly=" disabled">
+
+
+<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="1300">
+<span class="input-group-addon"></span>
+<br>
+<br>
+<input  maxlength="2" type="tel" size="8"name="valor" value="" placeholder="R$"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
+ <label class="btn btn-default"> 
+
+
+<input type="text" size="18" name="NOME"required placeholder="Nome"><br>
+   <div class="6u 12u$(xsmall)">  
+ 
+
+ <input type="submit" name="" value="ENVIAR A PULE" select="button alt" onclick="funcao1()" value="Exibir Alert" >
+  <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt">
+  
+  <p style="text-align: center;font-size: 20px; color: blue">	
+  
+  segunda a sabado<br>
+R$ 1.00 para R$ 1.300.00
+
+</form>
+</body>
+</html>
