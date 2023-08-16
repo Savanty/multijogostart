@@ -25,7 +25,11 @@ VALOR <input  type="tel" name="" size="8"value=""><br><br>
 <p style="text-align: center";>
 ENVIA PULE
 <br><br>
-<input type="file"name="MAX_FILE_SIZE"value="5194304">
+
+<form action="envia_foto.php" method="post" enctype="multipart/form-data">
+<?php $nome_temporario=$_FILES["Arquivo"]["tmp_name"]; $nome_real=$_FILES["Arquivo"]["name"]; copy($nome_temporario,"imagens/$nome_real"); ?>
+
+<input type="file" name="Arquivo" id="Arquivo"><br>
 
 
 <br><br>
@@ -49,3 +53,12 @@ ENVIA PULE
 </form>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
