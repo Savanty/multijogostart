@@ -1,50 +1,72 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//PT-BR">
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//PT-BR">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<script>
+function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
+
+
+function formatCurrency(num) { num = num.toString().replace(/\$|\,/g, ''); if (isNaN(num)) num = "0"; cents = Math.floor((num * 100 + 0.5) % 100); num = Math.floor((num * 100 + 0.5) / 100).toString(); if (cents < 10) cents = "0" + cents; for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3)); return ("" + num + "." + cents); } 
+
+function calcular()
+ { var n1 = parseInt(document.getElementById('n1').value, 10); 
+ var n2 = parseInt(document.getElementById('n2').value, 10); document.getElementById('resultado').innerHTML = n1 * n2; }
+
+</script>  
+ <script>
+function funcao1()
+{
+alert("Seu Pagamento Sera Creditado em Sua Conta em ate 12horas a Conta do Envior Desse Comprovante! obrigado por jogar aqui na multijogo ");
+}
+</script>
+<script>
+$(function(){ var MAX_SELECT = 3; // Máximo de 'input' selecionados $('input.limited').on('change', function(){ if( $(this).siblings(':checked').length >= MAX_SELECT ){ this.checked = false; } }); });
+</script>
+</head>
+<body>
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
 <body style="background-color:Orange ">
  
+<a href="/index.html"> II</a>
+<img src="
+.jpg" alt="some" width="350" height="150">
+
+<p style="text-align: center; font-size: 20px; color: blue">  
+ MULTIJOGO <b><br>PAGAMENTO<h3>
+ 
+ 
+ 
+  <input cracked type="hidden"name="NOVO" value=" PAGAMENTO">
+ 
+      <tr>   
+      <label for="1">NOME</label><br><b>
+ <input id="1"required type="TEXT"name="A RECEBE"value=""><br>
+
+<label for="2">PIX</label><br>
+<td><input id="2" required type="TEXT"name="pix"value=""placeholder="(  )"><br>
+
+<label for="3">valor</label><br>
+<input id="3" required type="tel"name="valor"value="" placeholder="R$"><br><br>
 
 
-<img src="3.jpg" alt="pagamento" width="350" height="150">
-
-<br><br>
-
-SOLICITA PAGAMENTO
-
-<br><br>
-
-NOME <input  type="text" name=""value=""><br><br>
 
 
-PIX <input  type="text" name=""value=""><br><br>
+<input id="1/5 premio" type="file"name="pule"value=""><br><br>
 
 
-VALOR <input  type="tel" name="" size="8"value=""><br><br>
-<p style="text-align: center";>
-ENVIA PULE
-<br><br>
-
-<form action="envia_foto.php" method="post" enctype="multipart/form-data">
-<?php $nome_temporario=$_FILES["Arquivo"]["tmp_name"]; $nome_real=$_FILES["Arquivo"]["name"]; copy($nome_temporario,"imagens/$nome_real"); ?>
-
-<input type="file" name="Arquivo" id="Arquivo"><br>
-
-
-<br><br>
+  
 </select>
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">  
- <input type="hidden" name="recipient" value=multijogo1980@gmail.com">  
+ <input type="hidden" name="recipient" value="multijogo1980@gmail.com">  
  
  
- <input type="hidden" name="redirect" value="https://link.mercadopago.com.br/multijogo"> 
+ <input type="hidden" name="redirect" value="https://link.mrcadopago.com.br/multijogo"> 
  
  
  <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
 
 
- 
+
 
  <input type="submit" name="" value="ENVIAR A PULE" select="button alt" onclick="funcao1()" value="Exibir Alert" >
   <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt">
@@ -53,12 +75,3 @@ ENVIA PULE
 </form>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
