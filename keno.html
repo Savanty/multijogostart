@@ -23,7 +23,7 @@ alert("bilhete sera validado apos o pagamento do pix .FACA 10 MINUTOS ANTES DA E
 </script>
 
 <script>
-function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 10) { error.textContent = "VOCE ATINGIU O 10 DEZENAS"; elem[j].checked = false; return false; }
+function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 10) { error.textContent = "VOCE ATINGIU  10  DEZENAS,\n ENVIE A PULE"; elem[j].checked = false; return false; }
  }
   }
 </script>
@@ -32,14 +32,14 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
 <body style="background-color: orange">
 
-  <img src="1.jpeg" alt="some" width="350" height="80">
+  <img src="1.jpeg" alt="some" width="350" height="100">
    
-   <input cracked type="hidden"name="QUANTIDADE"value="17 lotinha">
-
+   <input cracked type="hidden"name="QUANTIDADE"value="10Dz  keno">
+<br>
   
   <table border="1">   
 <tr>
-   <form action=""> <span id="error" style="color: red"><br>
+   <form action=""> <span id="error" style="color: blue"><br>
    </span> 
   
  <td>   <span>01</span>
@@ -62,10 +62,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
  
 
  
-<tr>
-<body>
-   <form action=""> <span id="error" style="color: red">
-   </span> 
+<tr> 
   
  <td>   <span>08</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-08" onclick="checkboxControl(7)" id="1" /> 
@@ -86,8 +83,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
  
 <tr>
-   <form action=""> <span id="error" style="color: red">
-   </span> 
+   
   
  <td>   <span>15</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-15" onclick="checkboxControl(14)" id="1" /> 
@@ -98,7 +94,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
     <td>    <span>18</span> 
         <input type="checkbox" class="checkbox" name="KENO-DEZENA=-18" onclick="checkboxControl(17)" id="1" />
 
-   <form action=""> <span id="error" style="color: red">
+   
    </span> <td><span>19</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-19" onclick="checkboxControl(18)" id="1" /> 
      <td><span>20</span>
@@ -121,8 +117,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
   
 
-   <form action=""> <span id="error" style="color: green"><br>
-   </span> 
+   
   
  <td>   <span>26</span>
      <input type="checkbox" class="checkbox" name="lotinha_Dz26" onclick="checkboxControl(24)" id="1" /> 
@@ -141,8 +136,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
     <td>  <span>32</span>
        <input type="checkbox" class="checkbox" name="KENO-DEZENA=-32" onclick="checkboxControl(30)" id="1" />
  
-   <form action=""> <span id="error" style="color: red">
-   </span> 
+   
   
  <td>   <span>33</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-33" onclick="checkboxControl(31)" id="1" /> 
@@ -152,8 +146,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
     
        <input type="checkbox" class="checkbox" name="KENO-DEZENA=-35" onclick="checkboxControl(33)" id="1" />
-       </table>
- <table border="1">  
+       <tr>
        
     <td>    <span>36</span> 
         <input type="checkbox" class="checkbox" name="KENO-DEZENA=-36" onclick="checkboxControl(34)" id="1" />
@@ -167,9 +160,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
   
 
  
-   <form action=""> <span id="error" style="color: red">
-   </span> 
-  
+   
  <td>   <span>40</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-40" onclick="checkboxControl(38)" id="1" /> 
      <td><span>41</span>
@@ -185,7 +176,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
     <td>    <span>43</span> 
         <input type="checkbox" class="checkbox" name="KENO-DEZENA=-43" onclick="checkboxControl(41)" id="1" />
 
-   <form action=""> <span id="error" style="color: red">
+   
    </span> <td><span>44</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-44" onclick="checkboxControl(42)" id="1" /> 
      <td><span>45</span>
@@ -207,9 +198,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
     <td>  <span>50</span>
        <input type="checkbox" class="checkbox" name="KENO-DEZENA=-50" onclick="checkboxControl(48)" id="1" />
 
-   <form action=""> <span id="error" style="color: green"><br>
-   </span> 
-  
+   
  <td>   <span>51</span>
      <input type="checkbox" class="checkbox" name="lotinha_Dz-51" onclick="checkboxControl(49)" id="1" /> 
      <td><span>52</span>
@@ -223,9 +212,8 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
      <td><span>56</span>
       <input type="checkbox" class="checkbox" name="KENO-DEZENA=-56" onclick="checkboxControl(54)" id="1" />
       
-      </table>
- <table border="1">  
       
+      <tr>
     <td>  <span>57</span>
        <input type="checkbox" class="checkbox" name="KENO-DEZENA=-57" onclick="checkboxControl(55)" id="1" />
  
@@ -250,8 +238,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
   
 
  
-   <form action=""> <span id="error" style="color: red">
-   </span> 
+    
   
  <td>   <span>65</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-65" onclick="checkboxControl(63)" id="1" /> 
@@ -262,7 +249,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
     <td>    <span>68</span> 
         <input type="checkbox" class="checkbox" name="KENO-DEZENA=-68" onclick="checkboxControl(66)" id="1" />
 
-   <form action=""> <span id="error" style="color: red">
+   
    </span> <td><span>69</span>
      <input type="checkbox" class="checkbox" name="KENO-DEZENA=-69" onclick="checkboxControl(67)" id="1" /> 
      <td><span>70</span>
@@ -361,11 +348,11 @@ valor total<br>
 <input maxlength="5"class="form-control input-lg" id="disabledInput" name="total" type="text" placeholder="R$"readonly=" disabled">
 
 
-<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="400000000">
+<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="399999998">
 <span class="input-group-addon"></span>
 <br>
 <br>
-<input  maxlength="2" type="tel" size="8"name="valor" value="" placeholder="R$"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
+<input  maxlength="1" type="tel" size="8"name="valor" value="" placeholder="R$ 2"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
  <label class="btn btn-default"> 
 
 
@@ -379,7 +366,7 @@ valor total<br>
   <p style="text-align: center;font-size: 20px; color: blue">	
   
   segunda a sabado<br>
-R$ 1.00 para R$ 400.000.00
+R$ 2.00 para R$ 400.000.00
 
 </form>
 </body>
