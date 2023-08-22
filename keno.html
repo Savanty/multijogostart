@@ -34,7 +34,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
   <img src="1.jpeg" alt="some" width="350" height="100">
    
-   <input cracked type="hidden"name="QUANTIDADE"value="10Dz  KENO">
+   <input cracked type="hidden"name="QUANTIDADE"value="10Dz  keno">
 <br>
   
   <table border="1">   
@@ -43,7 +43,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
    </span> 
   
  <td>   <span>01</span>
-     <input type="checkbox" class="checkbox" name="KENO_DEZENA=-01" onclick="checkboxControl(0)" id="1" /> 
+     <input type="checkbox" class="checkbox" name="lotinha_Dz01" onclick="checkboxControl(0)" id="1" /> 
      <td><span>02</span>
       <input type="checkbox" class="checkbox" name="KENO-DEZENA=-02" onclick="checkboxControl(1)" id="1" />
     <td>  <span>03</span>
@@ -200,7 +200,7 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
    
  <td>   <span>51</span>
-     <input type="checkbox" class="checkbox" name="KENO-DEZENA=-51" onclick="checkboxControl(49)" id="1" /> 
+     <input type="checkbox" class="checkbox" name="lotinha_Dz-51" onclick="checkboxControl(49)" id="1" /> 
      <td><span>52</span>
       <input type="checkbox" class="checkbox" name="KENO-DEZENA=-52" onclick="checkboxControl(50)" id="1" />
     <td>  <span>53</span>
@@ -295,21 +295,21 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
  <tr>
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">07:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="07:05">07:05<td><label class="btn btn-default">
 <br>
 
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">80:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="08:00">08:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">09:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="09:05">09:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">10:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="10:05">10:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">11:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="11:05">11:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">12:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="12:05">12:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">13:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="13:05">13:05<td><label class="btn btn-default">
 </table><br>
 
 
@@ -317,21 +317,18 @@ function checkboxControl(j) { var total = 0; var elem = document.getElementsByCl
 
  <tr>
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">14:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="14:05">14:05<td><label class="btn btn-default">
 <br>
 
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">15:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="15:05">15:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">16:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="16:05">16:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">17:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="17:05">17:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">18:05<td><label class="btn btn-default">
+<td><input size="18"required type="radio" name="EXTRACAO"value="18:05">18:05<td><label class="btn btn-default">
 
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">19:05<td><label class="btn btn-default">
-
-<td><input size="18"required type="radio" name="EXTRACAO"value="21:00">20:05<td><label class="btn btn-default">
 </table><br>
 </select>
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">  
@@ -348,11 +345,11 @@ valor total<br>
 <input maxlength="5"class="form-control input-lg" id="disabledInput" name="total" type="text" placeholder="R$"readonly=" disabled">
 
 
-<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="399999998">
+<input maxlength="5"id="n1" type="hidden" name="hiddentotal" value="4000000">
 <span class="input-group-addon"></span>
 <br>
 <br>
-<input  maxlength="1" type="tel" size="8"name="valor" value="" placeholder="R$ 2"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
+<input  maxlength="1" type="tel" size="8"name="valor" value="" placeholder="R$"autocomplete="off" onchange="this.form.total.value=checkChoice(this);"></label>
  <label class="btn btn-default"> 
 
 
