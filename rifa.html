@@ -3,7 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
 </head>
-<body style="background-color:orange">
 
 <script>
 function checkChoice(whichbox) { with(whichbox.form) { if (whichbox.checked == false) hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); else hiddentotal.value = eval(hiddentotal.value) * eval(whichbox.value); return (formatCurrency(hiddentotal.value));; } } 
@@ -25,12 +24,80 @@ alert("bilhete sera validado apos o pagamento do pix .FACA 10 MINUTOS ANTES DA E
 </script>
 </head>
 <body>
+
+<style>
+body{
+    background-color:green;
+    color:black;
+    text-align:center;
+    display: flex; justify-content: center; align-items: center;
+}
+table{
+    text-align:center;
+    background: black;
+    color:white;
+    border-radius:100px;
+    padding:10px;
+    border: 10px;
+    transition:
+    width:100px;
+    height :2px;
+}
+input{
+    text-align:center;
+    banckground:aqua;
+    color:black;
+    padding:10px
+    border:none;
+    border-radius:100px;
+    transition:0.5s;
+    }
+    
+    p{
+        text-align:center;
+        
+        
+        }
+        h3{
+          background:blue;
+          color:red;
+          
+        }
+        
+        button {
+  color: white;
+  background: blue;
+  transition: background 1s;
+}
+
+button:hover,
+button:focus {
+  background: red;
+}
+
+
+.quadrado { background: red; width: 50px; height: 50px; animation: go-back 1s infinite alternate; }
+
+|
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+
+
+
+
+</style>
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
-<body style="background-color:gold ">
 
   <a href="index.html">II</a>
 <p style="text-align: center; font-size: 20px; color: blue">
-MULTIJOGO<br><b> MULTIJOGO DE DEZENA<h><br>
+<h3>MULTIJOGO<br><b> <h3>MULTIJOGO DE DEZENA<h3><br>
  <input cracked type="hidden"name="MULTIJOGO Rifa" value="DEZENA">
            <table border="5"style="background-color:lime">
    
@@ -74,7 +141,7 @@ MULTIJOGO<br><b> MULTIJOGO DE DEZENA<h><br>
 <td>
 
 
-<input type="checkbox" name="RIFA-DEZENA" value=" 04"  >04</label>
+<input type="checkbox" name="RIFA-DEZENA" value=" 05"  >04</label>
  <label class="btn btn-default"> 
 
  
@@ -212,7 +279,7 @@ MULTIJOGO<br><b> MULTIJOGO DE DEZENA<h><br>
 <td>
 
 
-<input type="checkbox" name="RIFA-DEZENA" value=" 27"  >27</label>
+<input type="checkbox" name="RIFA-DEZENA" value=" 26"  >27</label>
  <label class="btn btn-default"> 
    
  
@@ -376,7 +443,7 @@ MULTIJOGO<br><b> MULTIJOGO DE DEZENA<h><br>
 <td>
 
 
-<input type="checkbox" name="RIFA-DEZENA" value=" 54"  >54</label>
+<input type="checkbox" name="RIFA-DEZENA" value=" 53"  >54</label>
  <label class="btn btn-default"> 
 
  
@@ -636,18 +703,17 @@ MULTIJOGO<br><b> MULTIJOGO DE DEZENA<h><br>
 
  </table>
  
- 
- 
-<h3>HORARIO<h3>
+ <p style="text-align: center;">
+<blink>HORARIO</blink>
 
  <table border="5"style="background-color:pink">	
 
  <tr>
-<td><input type="radio" name="EXTRACAO"value"10:00 horas">10:00<td><label class="btn btn-default">
-<td><input type="radio" name="EXTRACAO"required value="12:00 horas">12:00<td><label class="btn btn-default">
-<td><input type="radio" name="EXTRACAO" value="15:00 horas">15:00<td><label class="btn btn-default">
-<td><input type="radio" name="EXTRACAO" value="19:00 horas">19:00<td><label class="btn btn-default">
-<td><input type="radio" name="EXTRACAO"value="21:00 horas">21:00<td><label class="btn btn-default">
+<td><input type="checkbox" name="EXTRACAO"value"10:00 horas">10:00<td><label class="btn btn-default">
+<td><input type="checkbox" name="EXTRACAO"value="12:00 horas">12:00<td><label class="btn btn-default">
+<td><input type="checkbox" name="EXTRACAO" value="15:00 horas">15:00<td><label class="btn btn-default">
+<td><input type="checkbox" name="EXTRACAO" value="19:00 horas">19:00<td><label class="btn btn-default">
+<td><input type="checkbox" name="EXTRACAO"value="21:00 horas">21:00<td><label class="btn btn-default">
 </table><br>
 
 
@@ -657,7 +723,9 @@ MULTIJOGO<br><b> MULTIJOGO DE DEZENA<h><br>
  <input type="hidden" name="recipient" value="multijogo1980@gmail.com">  
  
  
-
+ <input type="hidden" name="redirect" value="https://link.mercadopago.com.br/multijogo"> 
+ 
+ 
  <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
 
 
@@ -680,10 +748,10 @@ valor total<br>
  <input type="submit" name="" value="ENVIAR A PULE" select="button alt" onclick="funcao1()" value="Exibir Alert" >
   <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt">
   
-  <p style="text-align: center;font-size: 20px; color: blue">	
+  <p style="text-align: center;font-size: 20px; color: white">	
  
-R$ 1.00 para R$ 70.00<br>
-<a id="5" href="regulamento-geral.html">leia<br><label for="5">REGULAMENTO</label>
+<marquee>R$ 1.00 para R$ 70.00</marquee>
+<div class="quadrado"></div>
 
 </form>
 </body>
