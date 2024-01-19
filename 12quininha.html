@@ -18,7 +18,7 @@ function formatCurrency(num) { num = num.toString().replace(/\$|\,/g, ''); if (i
  <script>
 function funcao1()
 {
-alert("bilhete sera validado apos o pagamento do pix .FACA 10 MINUTOS ANTES DA EXTRACAO. informe ao cambista envier o comprovante(confime sua pule em enviar assim mesmo)boa sorte!");
+alert("Bilhete Sera Validado Apos o Pagamento do pix\n FACA 10 MINUTOS ANTES DA EXTRACAO.\n informer ao cambista Envier o Comprovante\n(confimer sua pule em ENVIAR ASSIM MESMO)\n\nboa sorte!");
 }
 </script>
 
@@ -316,8 +316,7 @@ DEZENAS<br><br>
  
   
 
-<p>HORARIO<p>
-<p>segunda a sabado<br>
+<p>HORARIO: SEGUNDA a SÁBADO<br>
 <marquee><b>R$ 1.00 para R$ 6.000,00</marquee>
 <br><br>
  <table class="tbt">	
@@ -325,7 +324,7 @@ DEZENAS<br><br>
  <tr>
 
 <td><input size="18"required type="radio" name="EXTRACAO"value="20:00">20:00<td><label class="btn btn-default">
-</table><br>
+</table>
 
 
 </select>
@@ -333,7 +332,7 @@ DEZENAS<br><br>
  <input type="hidden" name="recipient" value="multijogo1980@gmail.com">  
  
  
- <input type="hidden" name="redirect" value="https://link.mercadopago.com.br/multijogo"> 
+ <input type="hidden" name="redirect" value="https://placar-exato4.webnode.page/pagamento/"> 
  
  
  <input type="hidden" name="subject" value="Assunto" <input type="hidden" name="email" value="gmail.com">
@@ -356,11 +355,7 @@ DEZENAS<br><br>
  
 
  <input id="sub"type="submit" name="" value="ENVIAR A PULE" select="button alt" onclick="funcao1()" value="Exibir Alert" >
-  <input "requered" type="reset" name="BTApaga" value="LIMPA" class="button alt">
-  
-  
-  
-  
+  <input id="limpa"requered type="reset" name="BTApaga" value="LIMPA" class="button alt">
 </form>
 <style>
 table{
@@ -377,7 +372,9 @@ table{
     background:red;
     align-intem:center;
     text-align:center;
-    margin-left:40%;
+    margin-left:30%;
+    width:100px;
+    
     
 }
 p{
@@ -390,7 +387,13 @@ marquee{
     border:3px solid red;
 }
 #sub{
-    margin-left:20%
+    margin-left:20%;
+    height:40px;
+}
+#limpa {
+    margin-left:%;
+    height:40px;
+    width:70px;
 }
 </style>
 </body>
